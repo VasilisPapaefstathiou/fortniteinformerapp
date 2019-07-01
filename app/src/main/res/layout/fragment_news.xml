@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vasilis.papaefs.fninformer.News.NewsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/pb_rc_news"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:backgroundTintMode="src_atop"
+        android:indeterminateTint="@color/colorPrimary"
+        />
+
+</FrameLayout>
